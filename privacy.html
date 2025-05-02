@@ -6,7 +6,7 @@
   <style>
     body { font-family: sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #111; }
     h1, h2 { color: #222; }
-    h1 { text-align: center; margin-bottom: 40px; }
+    h1 { text-align: centre; margin-bottom: 40px; }
     h2 { margin-top: 30px; }
     ul { margin-top: 0.5em; }
   </style>
@@ -14,71 +14,72 @@
 <body>
 
 <h1>Privacy Policy – Landmark Hunt</h1>
-<p><strong>Effective Date:</strong> April 16, 2025</p>
+<p><strong>Effective Date:</strong> 16 April 2025</p>
 
-<p><strong>Landmark Hunt</strong> is a research-driven mobile application developed to support scientific investigations into human spatial memory and navigation behavior. This Privacy Policy describes what data we collect, how it is used and stored, and your rights regarding that data.</p>
+<p><strong>Landmark Hunt</strong> is a research-based mobile application developed to support scientific investigations into human spatial memory and navigation behaviour. This Privacy Policy explains what data the app collects, how it is used, and how it is protected.</p>
 
-<p>This app is used exclusively within ethically approved research studies. Only individuals who have provided informed consent and have been approved through a secure whitelist system are permitted to access the app. The research protocol has been approved by the <strong>Bond University Human Research Ethics Committee</strong> under approval number <strong>VS3002</strong>.</p>
+<p>This app is used exclusively in ethically approved research studies. Only participants who have provided informed consent and been added to a secure access whitelist are permitted to use the app. The study has been approved by the <strong>Bond University Human Research Ethics Committee</strong> under protocol number <strong>VS3002</strong>.</p>
 
 <h2>1. Data We Collect</h2>
 
-<p>To support app functionality and enable research, the app may collect the following types of data:</p>
+<p>The app collects the following categories of data to support its research and core functionality:</p>
+
 <ul>
-  <li><strong>Email address</strong> – Collected via Sign in with Apple and used solely for secure authentication and access control.</li>
-  <li><strong>User ID</strong> – A pseudonymous identifier automatically assigned to each user and stored with session-level task data. This ID is never linked to your email.</li>
-  <li><strong>Photos and labels</strong> – The core interaction of the app involves capturing photos of real-world landmarks and optionally assigning labels. These photos are stored only on your device and are never uploaded or transmitted to the research team.</li>
-  <li><strong>Precise location data</strong> – If permission is granted, location coordinates are saved with each landmark and used to support navigation tasks.</li>
-  <li><strong>Gameplay and interaction data</strong> – This includes performance data from pointing, mapping, and distance estimation tasks.</li>
-  <li><strong>Usage data</strong> – Includes timestamps, session activity, number of completed tasks, deleted landmarks, and app usage frequency.</li>
+  <li><strong>Email address</strong> – Collected via Sign in with Apple and used solely to authenticate access through a secure Supabase-based whitelist system. This is not linked to any research data.</li>
+  <li><strong>User ID</strong> – A pseudonymous, automatically generated ID used to store task data and session logs. It is distinct from your email and used only for research purposes.</li>
+  <li><strong>Photos and labels</strong> – Users may take photos of real-world landmarks and optionally assign labels. These photos are saved locally on your device and <strong>are never uploaded</strong> to any server. They remain fully under your control.</li>
+  <li><strong>Location data</strong> – If permission is granted, the app records the geographic coordinates associated with saved landmarks. These coordinates are used to support tasks such as pointing, mapping, and distance estimation.</li>
+  <li><strong>Gameplay and task performance</strong> – Includes data from navigation tasks such as pointing angles, estimated distances, and icon placements on maps.</li>
+  <li><strong>Usage metadata</strong> – Includes timestamps, task completion events, landmark creation or deletion, session duration, and frequency of app use.</li>
 </ul>
 
 <h2>2. How We Use Your Data</h2>
 
-<p>Data collected through Landmark Hunt is used for the following purposes:</p>
+<p>The data collected through Landmark Hunt is used for the following purposes:</p>
 <ul>
-  <li><strong>App functionality</strong> – To support key features such as saving landmarks, delivering reminders, enabling navigation tasks, and saving personal progress.</li>
-  <li><strong>Research</strong> – To analyse anonymised spatial behaviour and cognitive task performance for scientific purposes.</li>
-  <li><strong>Authentication</strong> – Email is used solely to authenticate users via Apple Sign-In and to control access through a secure whitelist system.</li>
-  <li><strong>Confidentiality</strong> – Email addresses and research data are stored separately. Uploaded data does not include any personal identifiers or images.</li>
+  <li><strong>App functionality</strong> – To enable core features such as landmark capture, map reconstruction, task progression, and personalised reminders.</li>
+  <li><strong>Scientific research</strong> – To analyse anonymised behavioural patterns related to spatial navigation and memory. All research data is de-identified before analysis.</li>
+  <li><strong>Authentication</strong> – Your email is used solely to control access via Apple Sign-In and the whitelist system. It is never uploaded with session data and is stored separately from research information.</li>
 </ul>
 
-<p>Data is not used for advertising, profiling, or commercial analytics. No data is sold or shared with third parties outside the authorized research team.</p>
+<p>Data is not used for advertising, profiling, or commercial analytics. It is never sold or shared with third parties outside the authorised research team.</p>
 
-<h2>3. Storage and Upload</h2>
+<h2>3. Data Storage and Upload</h2>
 
 <ul>
-  <li>Data is stored locally on your device in structured JSON format.</li>
-  <li>If enabled, the app will periodically upload new task data to a secure research server hosted on Supabase. Uploads occur automatically every three days when the app is launched.</li>
-  <li>Photos are excluded from uploads and remain on your device only.</li>
-  <li>Uploaded files are small (typically 10–200 KB) and contain only de-identified research data.</li>
-  <li>All uploads are encrypted in transit and linked only to the pseudonymous user ID.</li>
+  <li>All data is stored locally on your device in structured JSON format.</li>
+  <li>Task performance and metadata may be uploaded periodically (every three days) to a secure research server hosted on Supabase.</li>
+  <li>Uploads occur only when the app is opened and when upload is enabled. The size of each upload is typically between 10–200 KB.</li>
+  <li><strong>Photos and image data are never included in uploads</strong> and remain on your device at all times.</li>
+  <li>Email addresses and research data are stored separately to preserve confidentiality.</li>
+  <li>All uploaded data is encrypted in transit and linked only to a pseudonymous research ID.</li>
 </ul>
 
 <h2>4. Permissions</h2>
 
-<p>The app may request access to the following features:</p>
+<p>Landmark Hunt may request access to the following device features:</p>
 <ul>
   <li><strong>Camera</strong> – To allow users to capture landmark photos.</li>
-  <li><strong>Location</strong> – To store the location of landmarks and support navigation tasks.</li>
-  <li><strong>Notifications</strong> – To deliver personalized reminders related to spatial tasks.</li>
+  <li><strong>Location</strong> – To store coordinates associated with landmarks and enable location-based tasks.</li>
+  <li><strong>Notifications</strong> – To deliver personalised, context-aware task reminders.</li>
 </ul>
 
-<p>Permissions are requested only when needed and can be managed through your device settings.</p>
+<p>All permissions are optional and can be managed through your device’s settings.</p>
 
-<h2>5. Your Rights and Choices</h2>
+<h2>5. Your Rights and Control</h2>
 
-<p>Participants retain full control over their data. You may:</p>
+<p>Users have full control over their data and participation. You may:</p>
 <ul>
-  <li>Disable periodic uploads at any time within the app.</li>
-  <li>Reset or delete your data through the app’s admin interface.</li>
-  <li>Uninstall the app to remove all locally stored data.</li>
+  <li>Disable periodic uploads in the app settings.</li>
+  <li>Reset or delete all app data through the admin panel.</li>
+  <li>Withdraw from the study at any time, after which your access to the app will be revoked.</li>
+  <li>Uninstall the app to permanently remove all stored data from your device.</li>
 </ul>
-
-<p>If you withdraw from the study, your access will be revoked, and your data will be excluded from further analysis where possible.</p>
 
 <h2>6. Contact</h2>
 
-<p>For questions about this Privacy Policy, your data, or the research study, please contact:</p>
+<p>If you have questions about this Privacy Policy or the Landmark Hunt research project, please contact:</p>
+
 <p><strong>Landmark Hunt Research Team</strong><br>
 Email: <a href="mailto:landmarkhunt@gmail.com">landmarkhunt@gmail.com</a></p>
 
